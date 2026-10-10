@@ -565,7 +565,8 @@ async function ghRead(){
   if(res.status===404) return {sha:null, data:null};
   if(!res.ok){
     const t = await res.text();
-    if(res.status===401 || res.status===403) throw new Error("μη εγκεκριμένο token ή όριο αιτημάτων GitHub ("+res.status+")");
+    if(res.status===401) throw new Error("μη έγκυρο token (401) — κόλλα το ξανά ολόκληρο");
+    if(res.status===403) throw new Error("το token δεν έχει δικαίωμα εγγραφής (403): θέλει Repository access → kgr και Permissions → Contents → Read and write");
     throw new Error("GitHub API "+res.status+": "+t.slice(0,140));
   }
   const j = await res.json();
@@ -617,7 +618,8 @@ async function ghSave(quiet){
   }
   if(!res.ok){
     const t = await res.text();
-    if(res.status===401||res.status===403) throw new Error("μη εγκεκριμένο token ή όριο αιτημάτων ("+res.status+")");
+    if(res.status===401) throw new Error("μη έγκυρο token (401) — κόλλα το ξανά ολόκληρο");
+    if(res.status===403) throw new Error("το token δεν έχει δικαίωμα εγγραφής (403): θέλει Repository access → kgr και Permissions → Contents → Read and write");
     throw new Error("GitHub API "+res.status+": "+t.slice(0,160));
   }
   const j = await res.json();
