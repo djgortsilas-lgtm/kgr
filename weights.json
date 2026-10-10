@@ -1,41 +1,181 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T00:00:00.000Z",
+  "updatedAt": "2026-10-10T15:02:41.911Z",
   "entries": [
-    { "date": "2025-01-18", "george": 78.7, "rachil": 63.9 },
-    { "date": "2025-02-02", "george": 79.8, "rachil": 63.2 },
-    { "date": "2025-02-22", "george": 79.9, "rachil": 63.7 },
-    { "date": "2025-03-26", "george": 83.1, "rachil": 66.3 },
-    { "date": "2025-03-29", "george": 82.8, "rachil": 64.3 },
-    { "date": "2025-05-01", "george": 80.8, "rachil": 64.2 },
-    { "date": "2025-05-30", "george": 79.4, "rachil": 63.0 },
-    { "date": "2025-06-05", "george": 79.6, "rachil": 62.9 },
-    { "date": "2025-06-12", "george": 79.3, "rachil": 62.6 },
-    { "date": "2025-06-19", "george": 79.2, "rachil": 59.4 },
-    { "date": "2025-06-29", "george": 79.0, "rachil": 60.1 },
-    { "date": "2025-07-08", "george": 79.0, "rachil": 59.8 },
-    { "date": "2025-07-19", "george": 78.4, "rachil": 60.4 },
-    { "date": "2025-07-28", "george": 79.6, "rachil": 61.2 },
-    { "date": "2025-08-04", "george": 78.1, "rachil": 60.5 },
-    { "date": "2025-08-26", "george": 78.6, "rachil": 61.3 },
-    { "date": "2025-09-05", "george": 78.6, "rachil": 61.5 },
-    { "date": "2025-09-27", "george": 79.6, "rachil": 61.5 },
-    { "date": "2025-10-23", "george": 79.9, "rachil": 61.2 },
-    { "date": "2026-01-03", "george": 83.2, "rachil": 64.2 },
-    { "date": "2026-01-24", "george": 81.7, "rachil": 63.1 },
-    { "date": "2026-03-23", "george": 82.5, "rachil": 65.7 },
-    { "date": "2026-04-13", "george": 84.0, "rachil": 66.9 },
-    { "date": "2026-05-26", "george": 83.0, "rachil": 66.1 },
-    { "date": "2026-06-07", "george": 83.2, "rachil": 66.2 },
-    { "date": "2026-06-11", "george": 83.1, "rachil": 66.4 },
-    { "date": "2026-06-30", "george": 81.9, "rachil": 66.0 },
-    { "date": "2026-07-16", "george": 82.3, "rachil": 65.9 },
-    { "date": "2026-07-17", "george": 82.6, "rachil": 66.9 },
-    { "date": "2026-08-17", "george": 83.0, "rachil": 67.7 },
-    { "date": "2026-08-28", "george": 82.4, "rachil": 63.7 },
-    { "date": "2026-08-29", "george": 83.0, "rachil": 66.3 },
-    { "date": "2026-09-09", "george": 83.0, "rachil": 65.7 },
-    { "date": "2026-09-10", "george": 81.9, "rachil": 64.6 },
-    { "date": "2026-09-21", "george": 82.0, "rachil": 64.6 }
+    {
+      "date": "2025-01-18",
+      "george": 78.7,
+      "rachil": 63.9
+    },
+    {
+      "date": "2025-02-02",
+      "george": 79.8,
+      "rachil": 63.2
+    },
+    {
+      "date": "2025-02-22",
+      "george": 79.9,
+      "rachil": 63.7
+    },
+    {
+      "date": "2025-03-26",
+      "george": 83.1,
+      "rachil": 66.3
+    },
+    {
+      "date": "2025-03-29",
+      "george": 82.8,
+      "rachil": 64.3
+    },
+    {
+      "date": "2025-05-01",
+      "george": 80.8,
+      "rachil": 64.2
+    },
+    {
+      "date": "2025-05-30",
+      "george": 79.4,
+      "rachil": 63
+    },
+    {
+      "date": "2025-06-05",
+      "george": 79.6,
+      "rachil": 62.9
+    },
+    {
+      "date": "2025-06-12",
+      "george": 79.3,
+      "rachil": 62.6
+    },
+    {
+      "date": "2025-06-19",
+      "george": 79.2,
+      "rachil": 59.4
+    },
+    {
+      "date": "2025-06-29",
+      "george": 79,
+      "rachil": 60.1
+    },
+    {
+      "date": "2025-07-08",
+      "george": 79,
+      "rachil": 59.8
+    },
+    {
+      "date": "2025-07-19",
+      "george": 78.4,
+      "rachil": 60.4
+    },
+    {
+      "date": "2025-07-28",
+      "george": 79.6,
+      "rachil": 61.2
+    },
+    {
+      "date": "2025-08-04",
+      "george": 78.1,
+      "rachil": 60.5
+    },
+    {
+      "date": "2025-08-26",
+      "george": 78.6,
+      "rachil": 61.3
+    },
+    {
+      "date": "2025-09-05",
+      "george": 78.6,
+      "rachil": 61.5
+    },
+    {
+      "date": "2025-09-27",
+      "george": 79.6,
+      "rachil": 61.5
+    },
+    {
+      "date": "2025-10-23",
+      "george": 79.9,
+      "rachil": 61.2
+    },
+    {
+      "date": "2026-01-03",
+      "george": 83.2,
+      "rachil": 64.2
+    },
+    {
+      "date": "2026-01-24",
+      "george": 81.7,
+      "rachil": 63.1
+    },
+    {
+      "date": "2026-03-23",
+      "george": 82.5,
+      "rachil": 65.7
+    },
+    {
+      "date": "2026-04-13",
+      "george": 84,
+      "rachil": 66.9
+    },
+    {
+      "date": "2026-05-26",
+      "george": 83,
+      "rachil": 66.1
+    },
+    {
+      "date": "2026-06-07",
+      "george": 83.2,
+      "rachil": 66.2
+    },
+    {
+      "date": "2026-06-11",
+      "george": 83.1,
+      "rachil": 66.4
+    },
+    {
+      "date": "2026-06-30",
+      "george": 81.9,
+      "rachil": 66
+    },
+    {
+      "date": "2026-07-16",
+      "george": 82.3,
+      "rachil": 65.9
+    },
+    {
+      "date": "2026-07-17",
+      "george": 82.6,
+      "rachil": 66.9
+    },
+    {
+      "date": "2026-08-17",
+      "george": 83,
+      "rachil": 67.7
+    },
+    {
+      "date": "2026-08-28",
+      "george": 82.4,
+      "rachil": 63.7
+    },
+    {
+      "date": "2026-08-29",
+      "george": 83,
+      "rachil": 66.3
+    },
+    {
+      "date": "2026-09-09",
+      "george": 83,
+      "rachil": 65.7
+    },
+    {
+      "date": "2026-09-10",
+      "george": 81.9,
+      "rachil": 64.6
+    },
+    {
+      "date": "2026-09-21",
+      "george": 82,
+      "rachil": 64.6
+    }
   ]
 }
