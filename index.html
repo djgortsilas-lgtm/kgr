@@ -24,6 +24,10 @@
   header{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;justify-content:space-between;margin-bottom:16px}
   h1{font-size:23px;margin:0;letter-spacing:-.3px}
   h1 span.g{color:var(--george)} h1 span.r{color:var(--rachil)}
+  .emoji{font-size:1.35em;margin-right:4px;display:inline-block;transform-origin:50% 70%;
+    animation:wiggle 3.5s ease-in-out infinite}
+  @keyframes wiggle{0%,86%,100%{transform:rotate(0)}90%{transform:rotate(-14deg)}94%{transform:rotate(14deg)}98%{transform:rotate(-6deg)}}
+  @media (prefers-reduced-motion:reduce){.emoji{animation:none}}
   .sub{color:var(--muted);font-size:13px}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:16px;box-shadow:var(--shadow)}
   h2{font-size:15px;margin:0 0 14px;letter-spacing:.2px;text-transform:uppercase;color:var(--muted);font-weight:600}
@@ -39,6 +43,10 @@
   label{display:block;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px}
   input,select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;font-size:16px;background:#fff;color:var(--text);font-family:inherit;touch-action:manipulation}
   input:focus,select:focus{outline:2px solid #b2ccff;border-color:var(--blue)}
+  #formPanel{background:#eef1f5;border-color:#dde2e9;border-left:4px solid var(--blue)}
+  #formPanel h2{color:#1d2939}
+  #formPanel label[for="fDate"]{color:#101828}
+  #fDate{font-weight:700;font-size:17px;letter-spacing:.2px;background:#fff}
   .btn-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
   button{font:inherit;font-size:15px;font-weight:600;min-height:44px;padding:10px 16px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--text);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
   button:hover{background:#f9fafb}
@@ -122,7 +130,7 @@
 
   <header>
     <div>
-      <h1>Παρακολούθηση Βάρους — <span class="g">Γιώργος</span> &amp; <span class="r">Ραχήλ</span></h1>
+      <h1><span class="emoji" aria-hidden="true">⚖️</span>Παρακολούθηση Βάρους — <span class="g">Γιώργος</span> &amp; <span class="r">Ραχήλ</span></h1>
       <div class="sub" id="lastSync">Τοπικά δεδομένα</div>
     </div>
     <button type="button" class="ghost" id="btnConn" title="Σύνδεση GitHub">Σύνδεση</button>
