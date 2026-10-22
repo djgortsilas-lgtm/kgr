@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T04:50:58.423Z",
+  "updatedAt": "2026-10-22T05:03:22.853Z",
   "entries": [
     {
       "date": "2025-01-18",
@@ -179,8 +179,8 @@
     },
     {
       "date": "2026-10-22",
-      "george": null,
-      "rachil": 64.5
+      "george": 81.8,
+      "rachil": null
     }
   ]
 }
